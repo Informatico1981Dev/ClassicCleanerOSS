@@ -11,7 +11,7 @@ int main() {
 
     ClassicCleaner::CacheCleaner cache;
     cache.run();
-ClassicCleaner::LogCleaner log;
+    ClassicCleaner::LogCleaner log;
 log.run();
 
     return 0;
